@@ -2,31 +2,34 @@ Identifier: eos5pt8
 Slug: druglikeness-unsupervised
 Status: In progress
 Title: Drug-likeness scoring based on unsupervised learning
-Description: Unsupervised RNN-based language model trained only on known drugs, predicting
-  drug-likeness scores that reflect progression through drug development stages, without
-  relying on negative samples or overconfident binary outputs.
+Description: Unsupervised RNN-based language model trained only on known drugs, 
+  predicting drug-likeness scores that reflect progression through drug 
+  development stages, without relying on negative samples or overconfident 
+  binary outputs.
 Deployment:
-- Local
+  - Local
 Source: Local
 Source Type: External
 Task: Annotation
 Subtask: Property calculation or prediction
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Output:
-- Score
+  - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: 'The higher the score, the higher the drug-likeness. FDA average value is 79.4. ChEMBL average value is 64.1. GDB-17 average value is 39.4.'
+Interpretation: The higher the score, the higher the drug-likeness. FDA average 
+  value is 79.4. ChEMBL average value is 64.1. GDB-17 average value is 39.4.
 Tag:
-- Drug-likeness
+  - Drug-likeness
 Biomedical Area:
-- Any
+  - Any
 Target Organism:
-- Not Applicable
+  - Not Applicable
 Publication Type: Peer reviewed
 Publication Year: 2022
 Publication: https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a
 Source Code: https://github.com/SeonghwanSeo/drug-likeness
 License: MIT
+Incorporation Date: '2025-07-09'
