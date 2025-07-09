@@ -7,37 +7,26 @@ Description: Unsupervised RNN-based language model trained only on known drugs, 
   relying on negative samples or overconfident binary outputs.
 Deployment:
 - Local
-- Online
-Source: Local, Online
-Source Type: Internal, Replicated, External
-Task: Annotation, Representation, Sampling
-Subtask: Property calculation or prediction, Activity prediction, Featurization, Projection,
-  Similarity search, Generation
+Source: Local
+Source Type: External
+Task: Annotation
+Subtask: Property calculation or prediction
 Input:
 - Compound
 Input Dimension: 1
 Output:
-- Value
 - Score
-- Compound
-- Probability
-- Experimental value
-- '...'
 Output Dimension: 1
-Output Consistency: Fixed, Variable
-Interpretation: 'The output of this template model should be interpreted like this.
-
-  '
+Output Consistency: Fixed
+Interpretation: 'The higher the score, the higher the drug-likeness. FDA average value is 79.4. ChEMBL average value is 64.1. GDB-17 average value is 39.4.'
 Tag:
 - Drug-likeness
 Biomedical Area:
-- Biomedical Area 1
-- Biomedical Area 2
+- Any
 Target Organism:
-- Target Organism 1
-- Target Organism 2
-Publication Type: Peer reviewed, Preprint, Other
-Publication Year: 2025
+- Not Applicable
+Publication Type: Peer reviewed
+Publication Year: 2022
 Publication: https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a
 Source Code: https://github.com/SeonghwanSeo/drug-likeness
 License: MIT

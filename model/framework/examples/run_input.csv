@@ -1,1 +1,4 @@
-smiles
+input
+ClC(Cl)C(=O)NCCCCCCCCNC(=O)C(Cl)Cl
+Cc1ccc2c(Br)cc(Br)c(OC(=O)c3ccccc3)c2n1
+Fc1ccc(cc1)C(=O)CCCN1CCN(CC1)c1ccccn1
