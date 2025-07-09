@@ -33,3 +33,6 @@ Publication: https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a
 Source Code: https://github.com/SeonghwanSeo/drug-likeness
 License: MIT
 Incorporation Date: '2025-07-09'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5pt8.zip
+Model Size: 194.0
+Environment Size: 5613.0
