@@ -1,6 +1,6 @@
 Identifier: eos5pt8
 Slug: druglikeness-unsupervised
-Status: In progress
+Status: Ready
 Title: Drug-likeness scoring based on unsupervised learning
 Description: Unsupervised RNN-based language model trained only on known drugs, 
   predicting drug-likeness scores that reflect progression through drug 
@@ -34,5 +34,15 @@ Source Code: https://github.com/SeonghwanSeo/drug-likeness
 License: MIT
 Incorporation Date: '2025-07-09'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5pt8.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos5pt8
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 194.0
 Environment Size: 5613.0
+Image Size: 5793.76
+Computational Performance 1: 27.91
+Computational Performance 2: 17.95
+Computational Performance 3: 19.99
+Computational Performance 4: 59.92
+Computational Performance 5: 236.54
