@@ -34,12 +34,19 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5pt8](https://hub.docker.com/r/ersiliaos/eos5pt8)
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5pt8.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5pt8.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `194`
 - **Environment Size (Mb):** `5613`
+- **Image Size (Mb):** `5793.76`
 
+**Computational Performance (seconds):**
+- 10 inputs: `27.91`
+- 100 inputs: `19.99`
+- 10000 inputs: `236.54`
 
 ### References
 - **Source Code**: [https://github.com/SeonghwanSeo/drug-likeness](https://github.com/SeonghwanSeo/drug-likeness)
