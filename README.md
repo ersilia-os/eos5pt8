@@ -4,6 +4,7 @@ Unsupervised RNN-based language model trained only on known drugs, predicting dr
 
 This model was incorporated on 2025-07-09.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos5pt8`
@@ -13,7 +14,7 @@ This model was incorporated on 2025-07-09.
 - **Task:** `Annotation`
 - **Subtask:** `Property calculation or prediction`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Drug-likeness`
 
 ### Input
