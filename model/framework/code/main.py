@@ -24,9 +24,10 @@ with open(input_file, "r") as f:
     next(reader)  # skip header
     smiles_list = [r[0] for r in reader]
 
+print(smiles_list)
 # drug_likeness
 outputs = drug_likeness(smiles_list)
-
+print(outputs)
 #check input and output have the same lenght
 input_len = len(smiles_list)
 output_len = len(outputs)
