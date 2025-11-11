@@ -2,7 +2,6 @@
 import os
 import csv
 import sys
-from rdkit import Chem
 from druglikeness.deepdl import DeepDL
 
 # parse arguments
