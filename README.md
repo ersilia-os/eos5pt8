@@ -2,8 +2,7 @@
 
 Unsupervised RNN-based language model trained only on known drugs, predicting drug-likeness scores that reflect progression through drug development stages, without relying on negative samples or overconfident binary outputs.
 
-This model was incorporated on 2025-07-09.
-
+This model was incorporated on 2025-07-09.Last packaged on 2025-11-16.
 
 ## Information
 ### Identifiers
@@ -42,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `98`
 - **Environment Size (Mb):** `7205`
-- **Image Size (Mb):** `5793.76`
+- **Image Size (Mb):** `7420.5`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.91`
-- 100 inputs: `19.99`
-- 10000 inputs: `236.54`
+- 10 inputs: `29.88`
+- 100 inputs: `22.07`
+- 10000 inputs: `253`
 
 ### References
 - **Source Code**: [https://github.com/SeonghwanSeo/drug-likeness](https://github.com/SeonghwanSeo/drug-likeness)
