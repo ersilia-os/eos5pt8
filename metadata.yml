@@ -33,6 +33,8 @@ Publication: https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a
 Source Code: https://github.com/SeonghwanSeo/drug-likeness
 License: MIT
 Incorporation Date: '2025-07-09'
+Last Packaging Date: '2025-11-16'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5pt8.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos5pt8
 Docker Architecture:
@@ -40,9 +42,9 @@ Docker Architecture:
   - ARM64
 Model Size: 98.0
 Environment Size: 7205.0
-Image Size: 5793.76
-Computational Performance 1: 27.91
-Computational Performance 2: 17.95
-Computational Performance 3: 19.99
-Computational Performance 4: 59.92
-Computational Performance 5: 236.54
+Image Size: 7420.5
+Computational Performance 1: 29.88
+Computational Performance 2: 19.95
+Computational Performance 3: 22.07
+Computational Performance 4: 64.42
+Computational Performance 5: 253.0
