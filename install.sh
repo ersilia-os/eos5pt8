@@ -1,0 +1,1 @@
+/home/marina/anaconda3/envs/eos5pt8/bin/python -m pip install git+https://github.com/SeonghwanSeo/drug-likeness.git@746c472224eaeef97cbc51fc04e319a16dfa56d6
