@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/SeonghwanSeo/drug-likeness](https://github.com/SeonghwanSeo/drug-likeness)
-- **Publication**: [https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a](https://pubs.rsc.org/en/content/articlehtml/2022/sc/d1sc05248a)
+- **Publication**: [https://doi.org/10.1039/D1SC05248A](https://doi.org/10.1039/D1SC05248A)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2022`
 - **Ersilia Contributor:** [arnaucoma24](https://github.com/arnaucoma24)
