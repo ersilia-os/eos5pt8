@@ -1,6 +1,6 @@
 # Drug-likeness scoring based on unsupervised learning
 
-Unsupervised RNN-based language model trained only on known drugs, predicting drug-likeness scores that reflect progression through drug development stages, without relying on negative samples or overconfident binary outputs.
+Rates how closely a molecule resembles compounds that have progressed through drug development, on a scale where FDA-approved drugs average 79.4, ChEMBL compounds 64.1 and GDB-17 structures 39.4. Lee and colleagues trained a recurrent language model on known drugs alone, sidestepping the need for a negative set, since compounds labelled non-drug are usually just untested. The score reflects resemblance to developed chemistry and should not be read as a prediction of efficacy or safety.
 
 This model was incorporated on 2025-07-09.Last packaged on 2025-11-16.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2025-07-09.Last packaged on 2025-11-16.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** The higher the score, the higher the drug-likeness. FDA average value is 79.4. ChEMBL average value is 64.1. GDB-17 average value is 39.4.
+- **Interpretation:** Drug-likeness score where higher values indicate closer resemblance to developed drugs.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
