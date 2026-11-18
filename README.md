@@ -1,8 +1,9 @@
 # Drug-likeness scoring based on unsupervised learning
 
-Rates how closely a molecule resembles compounds that have progressed through drug development, on a scale that tops out at 100 and on which the published model averaged 79.4 for FDA-approved drugs, 64.1 for ChEMBL and 39.4 for GDB-17 structures. Lee and colleagues trained a recurrent language model on known drugs alone, sidestepping the need for a negative set, since compounds labelled non-drug are usually just untested. Ersilia serves the authors' later extended checkpoint, retrained on an updated drug database. Very short SMILES score spuriously high.
+Rates how closely a molecule resembles compounds that have progressed through drug development, on a scale that tops out at 100 and on which the published model averaged 79.4 for FDA-approved drugs, 64.1 for ChEMBL and 39.4 for GDB-17 structures. Lee and colleagues trained a recurrent language model on known drugs alone, sidestepping the need for a negative set, since compounds labelled non-drug are usually just untested. Ersilia serves the authors later extended checkpoint, retrained on an updated drug database. Very short SMILES score spuriously high.
 
-This model was incorporated on 2025-07-09.Last packaged on 2025-11-16.
+This model was incorporated on 2025-07-09.
+Last packaged on 2025-11-16.
 
 ## Information
 ### Identifiers
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5pt8](https://hub.docker.com/r/ersiliaos/eos5pt8)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5pt8.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5pt8.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos5pt8_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos5pt8_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `98`
